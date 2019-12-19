@@ -2,7 +2,7 @@
 Hard coded and scipy.stats used to solve if there was an statistical significance for: 
 
 
-Problem 1
+# Problem 1
 In an experiment to study the dependence of hypertension on smoking habits, the
 following data were taken on 180 individuals:
 
@@ -15,9 +15,11 @@ significance.
 - Calculate the value of the statistic, as well as the number of degrees of freedom,
 and decide whether you can reject or not reject the null hypothesis.
 
+Null Hypothesis: Non-smokers, moderate-smokers, and heavy-smokers are in equal proportion having hypertension and no hypertension.
+Alternative Hypothesis: Non-smokers, moderate-smokers, and heavy-smokers are in equal proportion having hypertension and no hypertension.
 
 
-Problem 2
+# Problem 2
 A college infirmary conducted an experiment to determine the degree of relief provided
 by three cough remedies. Each cough remedy was tried on 50 students and the following
 data recorded:
@@ -26,9 +28,11 @@ overall_actual = [[11, 13, 9],
                   [32, 28, 27],
                   [7, 9, 14]]
 
-Test the hypothesis that the three cough remedies are equally efective. Use a P-value
+Test the hypothesis that the three cough remedies are equally effective. Use a P-value
 in your conclusion.
 
+Null Hypothesis: NyQuil, Robitussin, Triaminic all provide an equal relief response to participants.
+Alternative Hypothesis: One or more cough remedies provides significant relief.
 
 
 # Theory:
