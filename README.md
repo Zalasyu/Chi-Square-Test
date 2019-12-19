@@ -1,40 +1,34 @@
 # Chi-Square-Test
 Hard coded and scipy.stats used to solve if there was an statistical significance for: 
 
-"""
+
 Problem 1
 In an experiment to study the dependence of hypertension on smoking habits, the
 following data were taken on 180 individuals:
 
-'Observed' Data
-________________________________________________________________________________
-                | Nonsmokers    |  Moderate - smokers   |   Heavy - smokers
-Hypertension    |    21         |          36           |        30
-No hypertension |    48         |          26           |        19
-________________________________________________________________________________
+actual_data = [[21, 36, 30],
+               [48, 26, 19]]
 
 - Formulate null and alternative hypothesis for this study, and choose a level of
 significance.
 - Draw a contingency table for the expected data, if the null hypothesis were true.
 - Calculate the value of the statistic, as well as the number of degrees of freedom,
 and decide whether you can reject or not reject the null hypothesis.
-"""
 
-"""
+
+
 Problem 2
 A college infirmary conducted an experiment to determine the degree of relief provided
 by three cough remedies. Each cough remedy was tried on 50 students and the following
 data recorded:
 
-              NyQuil             Robitussin      Triaminic     Total
-No relief       11                  13              9           33
-Some relief     32                  28              27          87
-Total relief    7                   9               14          30
-Total           50                  50              50          150
+overall_actual = [[11, 13, 9],
+                  [32, 28, 27],
+                  [7, 9, 14]]
 
 Test the hypothesis that the three cough remedies are equally efective. Use a P-value
 in your conclusion.
-"""
+
 
 
 # Theory:
