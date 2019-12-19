@@ -1,7 +1,10 @@
 # Chi-Square-Test
 Hard coded and scipy.stats used to solve if there was an statistical significance for: 
 
-1.Non-smokers, moderate-smokers, and heavy-smokers are in equal proportion having hypertension and no hypertension. Alternative Hypothesis: Non-smokers, moderate-smokers, and heavy-smokers are in equal proportion having hypertension and no hypertension. 
+"""
+Problem 1
+In an experiment to study the dependence of hypertension on smoking habits, the
+following data were taken on 180 individuals:
 
 'Observed' Data
 ________________________________________________________________________________
@@ -10,18 +13,31 @@ Hypertension    |    21         |          36           |        30
 No hypertension |    48         |          26           |        19
 ________________________________________________________________________________
 
+- Formulate null and alternative hypothesis for this study, and choose a level of
+significance.
+- Draw a contingency table for the expected data, if the null hypothesis were true.
+- Calculate the value of the statistic, as well as the number of degrees of freedom,
+and decide whether you can reject or not reject the null hypothesis.
+"""
 
-2. NyQuil, Robitussin, Triaminic all provide an equal relief response to participants. Alternative Hypothesis: One or more cough remedies provides significant relief.
+"""
+Problem 2
+A college infirmary conducted an experiment to determine the degree of relief provided
+by three cough remedies. Each cough remedy was tried on 50 students and the following
+data recorded:
 
-'Observed' Data
               NyQuil             Robitussin      Triaminic     Total
 No relief       11                  13              9           33
 Some relief     32                  28              27          87
 Total relief    7                   9               14          30
 Total           50                  50              50          150
 
+Test the hypothesis that the three cough remedies are equally efective. Use a P-value
+in your conclusion.
+"""
 
-Theory:
+
+# Theory:
 Chi-Squared Statistic
 The test statistic should be designed to describe, with a single
 number, how much the “observed” frequencies differ from the
